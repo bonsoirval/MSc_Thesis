@@ -1,0 +1,563 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex 2025.6.12)  16 JUN 2025 22:59
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**title_page.tex
+(./title_page.tex
+LaTeX2e <2024-11-01> patch level 2
+L3 programming layer <2025-01-18>
+! Undefined control sequence.
+l.3 {\centering \bfseries \Large
+                                 DISEASE DETECTION AND CLASSIFICATION \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 {\centering \bfseries \Large D
+                                  ISEASE DETECTION AND CLASSIFICATION \\
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (49.76361pt too wide) in paragraph at lines 3--3
+ []\OT1/cmr/bx/n/10 DISEASE 
+ []
+
+
+Overfull \hbox (20.20822pt too wide) in paragraph at lines 3--3
+ \OT1/cmr/bx/n/10 DE- 
+ []
+
+
+Overfull \hbox (27.69429pt too wide) in paragraph at lines 3--3
+ \OT1/cmr/bx/n/10 TEC- 
+ []
+
+
+Overfull \hbox (29.99983pt too wide) in paragraph at lines 3--3
+ \OT1/cmr/bx/n/10 TION 
+ []
+
+
+Overfull \hbox (26.51375pt too wide) in paragraph at lines 3--3
+ \OT1/cmr/bx/n/10 AND 
+ []
+
+
+Overfull \hbox (34.1387pt too wide) in paragraph at lines 3--3
+ \OT1/cmr/bx/n/10 CLAS- 
+ []
+
+
+Overfull \hbox (14.58325pt too wide) in paragraph at lines 3--3
+ \OT1/cmr/bx/n/10 SI- 
+ []
+
+
+Overfull \hbox (15.43047pt too wide) in paragraph at lines 3--3
+ \OT1/cmr/bx/n/10 FI- 
+ []
+
+
+Overfull \hbox (20.83322pt too wide) in paragraph at lines 3--3
+ \OT1/cmr/bx/n/10 CA- 
+ []
+
+
+Overfull \hbox (29.99983pt too wide) in paragraph at lines 3--3
+ \OT1/cmr/bx/n/10 TION 
+ []
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4 		I
+       N UGU LEAF USING ML / AI\\
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (13.36104pt too wide) in paragraph at lines 4--4
+ []\OT1/cmr/bx/n/10 IN 
+ []
+
+
+Overfull \hbox (26.73595pt too wide) in paragraph at lines 4--4
+ \OT1/cmr/bx/n/10 UGU 
+ []
+
+
+Overfull \hbox (30.4026pt too wide) in paragraph at lines 4--4
+ \OT1/cmr/bx/n/10 LEAF 
+ []
+
+
+Overfull \hbox (19.06934pt too wide) in paragraph at lines 4--4
+ \OT1/cmr/bx/n/10 US- 
+ []
+
+
+Overfull \hbox (22.40265pt too wide) in paragraph at lines 4--4
+ \OT1/cmr/bx/n/10 ING 
+ []
+
+
+Overfull \hbox (17.83324pt too wide) in paragraph at lines 4--4
+ \OT1/cmr/bx/n/10 ML 
+ []
+
+
+Overfull \hbox (5.74997pt too wide) in paragraph at lines 4--4
+ \OT1/cmr/bx/n/10 / 
+ []
+
+
+Overfull \hbox (13.05548pt too wide) in paragraph at lines 4--4
+ \OT1/cmr/bx/n/10 AI 
+ []
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.8 B
+     Y
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (16.87491pt too wide) in paragraph at lines 8--9
+ []\OT1/cmr/bx/n/10 BY 
+ []
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.10 N
+      JOKU, OKECHUKWU
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (44.63864pt too wide) in paragraph at lines 10--11
+ []\OT1/cmr/bx/n/10 NJOKU, 
+ []
+
+
+Overfull \hbox (81.11066pt too wide) in paragraph at lines 10--11
+ \OT1/cmr/bx/n/10 OKECHUKWU 
+ []
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.12 (
+      B.TECH. COMPUTER SCIENCE FUTO)
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (51.9025pt too wide) in paragraph at lines 12--15
+ []\OT1/cmr/bx/n/10 (B.TECH. 
+ []
+
+
+Overfull \hbox (31.69427pt too wide) in paragraph at lines 12--15
+ \OT1/cmr/bx/n/10 COM- 
+ []
+
+
+Overfull \hbox (40.88866pt too wide) in paragraph at lines 12--15
+ \OT1/cmr/bx/n/10 PUTER 
+ []
+
+
+Overfull \hbox (22.88876pt too wide) in paragraph at lines 12--15
+ \OT1/cmr/bx/n/10 SCI- 
+ []
+
+
+Overfull \hbox (32.41649pt too wide) in paragraph at lines 12--15
+ \OT1/cmr/bx/n/10 ENCE 
+ []
+
+
+Overfull \hbox (37.19423pt too wide) in paragraph at lines 12--15
+ \OT1/cmr/bx/n/10 FUTO)  
+ []
+
+
+Overfull \hbox (63.24966pt too wide) in paragraph at lines 12--15
+ \OT1/cmr/bx/n/10 20234419568 
+ []
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.16 A
+       THESIS SUBMITTED TO THE POSTGRADUATE SCHOOL
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (8.6944pt too wide) in paragraph at lines 16--19
+ []\OT1/cmr/bx/n/10 A 
+ []
+
+
+Overfull \hbox (28.38873pt too wide) in paragraph at lines 16--19
+ \OT1/cmr/bx/n/10 THE- 
+ []
+
+
+Overfull \hbox (17.1388pt too wide) in paragraph at lines 16--19
+ \OT1/cmr/bx/n/10 SIS 
+ []
+
+
+Overfull \hbox (27.24985pt too wide) in paragraph at lines 16--19
+ \OT1/cmr/bx/n/10 SUB- 
+ []
+
+
+Overfull \hbox (27.11096pt too wide) in paragraph at lines 16--19
+ \OT1/cmr/bx/n/10 MIT- 
+ []
+
+
+Overfull \hbox (24.37486pt too wide) in paragraph at lines 16--19
+ \OT1/cmr/bx/n/10 TED 
+ []
+
+
+Overfull \hbox (16.6388pt too wide) in paragraph at lines 16--19
+ \OT1/cmr/bx/n/10 TO 
+ []
+
+
+Overfull \hbox (24.55542pt too wide) in paragraph at lines 16--19
+ \OT1/cmr/bx/n/10 THE 
+ []
+
+
+Overfull \hbox (34.72203pt too wide) in paragraph at lines 16--19
+ \OT1/cmr/bx/n/10 POST- 
+ []
+
+
+Overfull \hbox (39.01367pt too wide) in paragraph at lines 16--19
+ \OT1/cmr/bx/n/10 GRAD- 
+ []
+
+
+Overfull \hbox (12.68048pt too wide) in paragraph at lines 16--19
+ \OT1/cmr/bx/n/10 U- 
+ []
+
+
+Overfull \hbox (23.29153pt too wide) in paragraph at lines 16--19
+ \OT1/cmr/bx/n/10 ATE 
+ []
+
+
+Overfull \hbox (47.88863pt too wide) in paragraph at lines 16--19
+ \OT1/cmr/bx/n/10 SCHOOL 
+ []
+
+
+Overfull \hbox (27.44429pt too wide) in paragraph at lines 16--19
+ \OT1/cmr/bx/n/10 FED- 
+ []
+
+
+Overfull \hbox (31.79149pt too wide) in paragraph at lines 16--19
+ \OT1/cmr/bx/n/10 ERAL 
+ []
+
+
+Overfull \hbox (26.04152pt too wide) in paragraph at lines 16--19
+ \OT1/cmr/bx/n/10 UNI- 
+ []
+
+
+Overfull \hbox (28.70818pt too wide) in paragraph at lines 16--19
+ \OT1/cmr/bx/n/10 VER- 
+ []
+
+
+Overfull \hbox (27.44429pt too wide) in paragraph at lines 16--19
+ \OT1/cmr/bx/n/10 SITY 
+ []
+
+
+Overfull \hbox (15.87491pt too wide) in paragraph at lines 16--19
+ \OT1/cmr/bx/n/10 OF 
+ []
+
+
+Overfull \hbox (36.69424pt too wide) in paragraph at lines 16--19
+ \OT1/cmr/bx/n/10 TECH- 
+ []
+
+
+Overfull \hbox (28.38873pt too wide) in paragraph at lines 16--19
+ \OT1/cmr/bx/n/10 NOL- 
+ []
+
+
+Overfull \hbox (29.56927pt too wide) in paragraph at lines 16--19
+ \OT1/cmr/bx/n/10 OGY, 
+ []
+
+
+Overfull \hbox (24.04153pt too wide) in paragraph at lines 16--19
+ \OT1/cmr/bx/n/10 OW- 
+ []
+
+
+Overfull \hbox (29.1665pt too wide) in paragraph at lines 16--19
+ \OT1/cmr/bx/n/10 ERRI 
+ []
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.20 I
+      N PARTIAL FULFILLMENT OF THE REQUIREMENTS FOR
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (13.36104pt too wide) in paragraph at lines 20--22
+ []\OT1/cmr/bx/n/10 IN 
+ []
+
+
+Overfull \hbox (28.0554pt too wide) in paragraph at lines 20--22
+ \OT1/cmr/bx/n/10 PAR- 
+ []
+
+
+Overfull \hbox (27.97206pt too wide) in paragraph at lines 20--22
+ \OT1/cmr/bx/n/10 TIAL 
+ []
+
+
+Overfull \hbox (26.83318pt too wide) in paragraph at lines 20--22
+ \OT1/cmr/bx/n/10 FUL- 
+ []
+
+
+Overfull \hbox (29.26372pt too wide) in paragraph at lines 20--22
+ \OT1/cmr/bx/n/10 FILL- 
+ []
+
+
+Overfull \hbox (35.47203pt too wide) in paragraph at lines 20--22
+ \OT1/cmr/bx/n/10 MENT 
+ []
+
+
+Overfull \hbox (15.87491pt too wide) in paragraph at lines 20--22
+ \OT1/cmr/bx/n/10 OF 
+ []
+
+
+Overfull \hbox (24.55542pt too wide) in paragraph at lines 20--22
+ \OT1/cmr/bx/n/10 THE 
+ []
+
+
+Overfull \hbox (20.01378pt too wide) in paragraph at lines 20--22
+ \OT1/cmr/bx/n/10 RE- 
+ []
+
+
+Overfull \hbox (41.86087pt too wide) in paragraph at lines 20--22
+ \OT1/cmr/bx/n/10 QUIRE- 
+ []
+
+
+Overfull \hbox (41.86089pt too wide) in paragraph at lines 20--22
+ \OT1/cmr/bx/n/10 MENTS 
+ []
+
+
+Overfull \hbox (24.18042pt too wide) in paragraph at lines 20--22
+ \OT1/cmr/bx/n/10 FOR 
+ []
+
+
+Overfull \hbox (24.55542pt too wide) in paragraph at lines 20--22
+ \OT1/cmr/bx/n/10 THE 
+ []
+
+
+Overfull \hbox (44.16643pt too wide) in paragraph at lines 20--22
+ \OT1/cmr/bx/n/10 AWARD 
+ []
+
+
+Overfull \hbox (15.87491pt too wide) in paragraph at lines 20--22
+ \OT1/cmr/bx/n/10 OF 
+ []
+
+
+Overfull \hbox (24.55542pt too wide) in paragraph at lines 20--22
+ \OT1/cmr/bx/n/10 THE 
+ []
+
+
+Overfull \hbox (20.20822pt too wide) in paragraph at lines 20--22
+ \OT1/cmr/bx/n/10 DE- 
+ []
+
+
+Overfull \hbox (32.77759pt too wide) in paragraph at lines 20--22
+ \OT1/cmr/bx/n/10 GREE 
+ []
+
+
+Overfull \hbox (34.30537pt too wide) in paragraph at lines 20--22
+ \OT1/cmr/bx/n/10 (MAS- 
+ []
+
+
+Overfull \hbox (24.18042pt too wide) in paragraph at lines 20--22
+ \OT1/cmr/bx/n/10 TER 
+ []
+
+
+Overfull \hbox (15.87491pt too wide) in paragraph at lines 20--22
+ \OT1/cmr/bx/n/10 OF 
+ []
+
+
+Overfull \hbox (22.88876pt too wide) in paragraph at lines 20--22
+ \OT1/cmr/bx/n/10 SCI- 
+ []
+
+
+Overfull \hbox (40.08311pt too wide) in paragraph at lines 20--22
+ \OT1/cmr/bx/n/10 ENCE), 
+ []
+
+
+Overfull \hbox (28.8054pt too wide) in paragraph at lines 20--22
+ \OT1/cmr/bx/n/10 M.Sc. 
+ []
+
+
+Overfull \hbox (13.36104pt too wide) in paragraph at lines 20--22
+ \OT1/cmr/bx/n/10 IN 
+ []
+
+
+Overfull \hbox (31.69427pt too wide) in paragraph at lines 20--22
+ \OT1/cmr/bx/n/10 COM- 
+ []
+
+
+Overfull \hbox (40.88866pt too wide) in paragraph at lines 20--22
+ \OT1/cmr/bx/n/10 PUTER 
+ []
+
+
+Overfull \hbox (22.88876pt too wide) in paragraph at lines 20--22
+ \OT1/cmr/bx/n/10 SCI- 
+ []
+
+
+Overfull \hbox (32.41649pt too wide) in paragraph at lines 20--22
+ \OT1/cmr/bx/n/10 ENCE 
+ []
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.24 J
+      UNE, 2025
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (34.54147pt too wide) in paragraph at lines 24--25
+ []\OT1/cmr/bx/n/10 JUNE, 
+ []
+
+
+Overfull \hbox (22.99988pt too wide) in paragraph at lines 24--25
+ \OT1/cmr/bx/n/10 2025 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+
+! LaTeX Error: The font size command \normalsize is not defined:
+               there is probably something wrong with the class file.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.25 
+     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[1{/home/njoku/.texlive2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}])
+! Emergency stop.
+<*> title_page.tex
+                  
+*** (job aborted, no legal \end found)
+
+ 
+Here is how much of TeX's memory you used:
+ 20 strings out of 475178
+ 425 string characters out of 5766539
+ 391848 words of memory out of 5000000
+ 23112 multiletter control sequences out of 15000+600000
+ 559145 words of font info for 37 fonts, out of 8000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 23i,5n,24p,127b,159s stack positions out of 10000i,1000n,20000p,200000b,200000s
+!  ==> Fatal error occurred, no output PDF file produced!

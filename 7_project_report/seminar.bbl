@@ -1,0 +1,156 @@
+\begin{thebibliography}{}
+
+\bibitem[Abdu et~al., 2020]{abduMachineLearningPlant2020}
+Abdu, A.~M., Mokji, M. M.~M., and Sheikh, U. U.~U. (2020).
+\newblock Machine learning for plant disease detection: An investigative
+  comparison between support vector machine and deep learning.
+\newblock {\em IAES International Journal of Artificial Intelligence (IJ-AI)},
+  9(4):670--683.
+
+\bibitem[Ahila et~al., 2019]{ahilaMaizeLeafDisease2019}
+Ahila, P.~R., Arivazhagan, S., Arun, M., and Mirnalini, A. (2019).
+\newblock Maize leaf disease classification using deep convolutional neural
+  networks.
+\newblock {\em Neural Comput \& Applic}, 31(12):8887--8895.
+
+\bibitem[Ang and Seng, 2021]{angBigDataMachine2021a}
+Ang, K. L.-M. and Seng, J. K.~P. (2021).
+\newblock Big {{Data}} and {{Machine Learning With Hyperspectral Information}}
+  in {{Agriculture}}.
+\newblock {\em IEEE Access}, 9:36699--36718.
+
+\bibitem[Bansal et~al., 2021]{bansalDiseaseDetectionApple2021}
+Bansal, P., Rahul, K., and Somesh, K. (2021).
+\newblock Disease {{Detection}} in {{Apple Leaves Using Deep Convolutional
+  Neural Network}}.
+\newblock https://www.mdpi.com/2077-0472/11/7/617.
+
+\bibitem[Barure et~al., 2020]{barureDiseaseDetectionPlant2020a}
+Barure, S., Mahadik, B., Thorat, M., and Kalal, A. (2020).
+\newblock Disease {{Detection}} in {{Plant}} using {{Machine Learning}}.
+\newblock 07(03).
+
+\bibitem[Bukumira et~al., 2022]{bukumiraCarrotGradingSystem2022a}
+Bukumira, M., Antonijevic, M., Jovanovic, D., Zivkovic, M., Mladenovic, D., and
+  Kunjadic, G. (2022).
+\newblock Carrot grading system using computer vision feature parameters and a
+  cascaded graph convolutional neural network.
+\newblock {\em JEI}, 31(6):061815.
+
+\bibitem[Chen et~al., 2021]{chenIdentificationFruitTree2021a}
+Chen, C.-J., Huang, Y.-Y., Li, Y.-S., Chen, Y.-C., Chang, C.-Y., and Huang,
+  Y.-M. (2021).
+\newblock Identification of {{Fruit Tree Pests With Deep Learning}} on
+  {{Embedded Drone}} to {{Achieve Accurate Pesticide Spraying}}.
+\newblock {\em IEEE Access}, 9:21986--21997.
+
+\bibitem[Ekhuemelo and Otor, 2021]{ekhuemeloASSESSMENTFUNGIASSOCIATED2021}
+Ekhuemelo, C. and Otor, E. (2021).
+\newblock Assessment of fungi associated with the leaf spot disease of fluted
+  pumpkin ({{Telfairia Occidentalis}}) {{Hook F}} and their management using
+  botanicals.
+\newblock {\em NigerJ.mycol}, Vol.13, 31--43.
+
+\bibitem[El~Massi et~al., 2021]{elmassiCombinationMultipleClassifiers2021a}
+El~Massi, I., {Es-saady}, Y., El~Yassa, M., and Mammass, D. (2021).
+\newblock Combination of multiple classifiers for automatic recognition of
+  diseases and damages on plant leaves.
+\newblock {\em SIViP}, 15(4):789--796.
+
+\bibitem[Hosny et~al., 2023]{hosnyMultiClassClassificationPlant2023a}
+Hosny, K.~M., {El-Hady}, W.~M., Samy, F.~M., Vrochidou, E., and Papakostas,
+  G.~A. (2023).
+\newblock Multi-{{Class Classification}} of {{Plant Leaf Diseases Using Feature
+  Fusion}} of {{Deep Convolutional Neural Network}} and {{Local Binary
+  Pattern}}.
+\newblock {\em IEEE Access}, 11:62307--62317.
+
+\bibitem[Jiang et~al., 2019]{jiangRealTimeDetectionApple2019a}
+Jiang, P., Chen, Y., Liu, B., He, D., and Liang, C. (2019).
+\newblock Real-{{Time Detection}} of {{Apple Leaf Diseases Using Deep Learning
+  Approach Based}} on {{Improved Convolutional Neural Networks}}.
+\newblock {\em IEEE Access}, 7:59069--59080.
+
+\bibitem[Khakimov et~al.,
+  2022]{khakimovTraditionalCurrentprospectiveMethods2022a}
+Khakimov, A., Salakhutdinov, I., Omolikov, A., and Utaganov, S. (2022).
+\newblock Traditional and current-prospective methods of agricultural plant
+  diseases detection: {{A}} review.
+\newblock {\em IOP Conf. Ser.: Earth Environ. Sci.}, 951(1):012002.
+
+\bibitem[Khalid et~al., 2023]{khalidRealTimePlantHealth2023a}
+Khalid, M., Sarfraz, M.~S., Iqbal, U., Aftab, M.~U., Niedba{\l}a, G., and Rauf,
+  H.~T. (2023).
+\newblock Real-{{Time Plant Health Detection Using Deep Convolutional Neural
+  Networks}}.
+\newblock {\em Agriculture}, 13(2):510.
+
+\bibitem[Khan et~al., 2022]{khanDeepDiagnosisRealtime2022a}
+Khan, A.~I., Quadri, S. M.~K., Banday, S., and Latief~Shah, J. (2022).
+\newblock Deep diagnosis: {{A}} real-time apple leaf disease detection system
+  based on deep learning.
+\newblock {\em Computers and Electronics in Agriculture}, 198:107093.
+
+\bibitem[Liu and Wang, 2021]{liuPlantDiseasesPests2021a}
+Liu, J. and Wang, X. (2021).
+\newblock Plant diseases and pests detection based on deep learning: A review.
+\newblock {\em Plant Methods}, 17(1):22.
+
+\bibitem[Nwaneto and {Yinka-Banjo}, 2024]{nwanetoHarnessingDeepLearning2024a}
+Nwaneto, C.~B. and {Yinka-Banjo}, C. (2024).
+\newblock Harnessing deep learning algorithms for early plant disease
+  detection: {{A}} comparative study and evaluation between {{SSD}}
+  ({{Mobilenet}}\_v2 and {{Mobilenet}}\_v3) and {{CNN}} model.
+\newblock {\em Ife Journal of Science}, 26(3):555--568.
+
+\bibitem[Sarwar et~al., 2022]{sarwarPerformanceMachineLearning2022}
+Sarwar, Z., Anand, L., Kantila, P.~R., Prabhu, P., Ahmed~Mateeen, B.,
+  Harikumar, P., Abhishck, R., and Betty~Nokobi, D. (2022).
+\newblock Performance of machine learning and image processing in plant leaf
+  disease detection. {{Journal}} of {{Food Quality}}.
+
+\bibitem[Sun et~al., 2020]{sunNorthernMaizeLeaf2020a}
+Sun, J., Yang, Y., He, X., and Wu, X. (2020).
+\newblock Northern {{Maize Leaf Blight Detection Under Complex Field
+  Environment Based}} on {{Deep Learning}}.
+\newblock {\em IEEE Access}, 8:33679--33688.
+
+\bibitem[Waheed et~al., 2020]{waheedOptimizedDenseConvolutional2020a}
+Waheed, A., Goyal, M., Gupta, D., Khanna, A., Hassanien, A.~E., and Pandey,
+  H.~M. (2020).
+\newblock An optimized dense convolutional neural network model for disease
+  recognition and classification in corn leaf.
+\newblock {\em Computers and Electronics in Agriculture}, 175:105456.
+
+\bibitem[Waleed et~al., 2022]{waleedNovelDeepLearning2022}
+Waleed, A., Nawaz, M., Javed, A., Masood, M., and Albahli, S. (2022).
+\newblock A novel deep learning method for detection and classification of
+  plant diseases {\textbar} {{Complex}} \& {{Intelligent Systems}}.
+\newblock https://link.springer.com/article/10.1007/s40747-021-00536-1.
+
+\bibitem[Wu et~al., 2020]{wuDetectionEnumerationWheat2020a}
+Wu, W., Yang, T.-l., Li, R., Chen, C., Liu, T., Zhou, K., Sun, C.-m., Li,
+  C.-y., Zhu, X.-k., and Guo, W.-s. (2020).
+\newblock Detection and enumeration of wheat grains based on a deep learning
+  method under various scenarios and scales.
+\newblock {\em Journal of Integrative Agriculture}, 19(8):1998--2008.
+
+\bibitem[Xie et~al., 2020]{xieDeepLearningBasedRealTimeDetector2020a}
+Xie, X., Ma, Y., Liu, B., He, J., Li, S., and Wang, H. (2020).
+\newblock A {{Deep-Learning-Based Real-Time Detector}} for {{Grape Leaf
+  Diseases Using Improved Convolutional Neural Networks}}.
+\newblock {\em Front. Plant Sci.}, 11.
+
+\bibitem[Zhang et~al., 2023]{zhangInstancebasedDeepTransfer2023a}
+Zhang, C., Wang, J., Yan, T., Lu, X., Lu, G., Tang, X., and Huang, B. (2023).
+\newblock An instance-based deep transfer learning method for quality
+  identification of {{Longjing}} tea from multiple geographical origins.
+\newblock {\em Complex Intell. Syst.}, 9(3):3409--3428.
+
+\bibitem[Zhou et~al., 2021]{zhouTomatoLeafDisease2021a}
+Zhou, C., Zhou, S., Xing, J., and Song, J. (2021).
+\newblock Tomato {{Leaf Disease Identification}} by {{Restructured Deep
+  Residual Dense Network}}.
+\newblock {\em IEEE Access}, 9:28822--28831.
+
+\end{thebibliography}

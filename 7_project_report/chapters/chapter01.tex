@@ -1,0 +1,171 @@
+\section{Background Information} 
+% (bold, sentence wise, font size 12)
+\sectionTitleBody
+
+Pumpkin leaves ({\textit{Cucurbita spp}), one of the underutilized
+	crops which belong to the family, curcubita often consumed as a vegetable,
+	includes various species like \textit{Cucurbita pepo, C. moschata, and C.
+	maxima}. They are known for their nutrition values, with high levels
+	of iron and vitamins A, B, and E are a secondary crop grown alongside other pumpkins
+	(Mohammed et al., 2021). Originating from regions like Mexico, Central
+	America, and South America, pumpkin leaves are now cultivated in many
+	tropical, subtropical, and temperate climates, particularly in West
+	Africa where there are well consumed and cherished, notably known as \textquotedblleft ugboguru\textquotedblright{}
+	in Igbo language. Pumpkin leaves are rich in iron content which is vital to
+	the proper function of haemoglobin, which reduces the chances of anaemia.
+	Pumpkin leaves also have the ability to reduce incidences of non-communicable
+	chronic disease such as type 2 diabetes. However, pumpkin is easily
+	attacked by fungal (powdery mildew), bacterial (leaf spot), and viral
+	disease (mosaic virus) affecting crop yield and productivity (Yadav
+	et al., 2022). These diseases are traditionally discovered through visual
+	observation, which is time consuming and susceptible to error, especially
+	in early infection stages. Crop disease detection refers to the assessment
+	of disease appearance, intensity, and effects \citep{abduMachineLearningPlant2020}.
+	Crop disease can be classified as a dynamic situation that disorganize
+	the proper functioning of plants and hinders their growth during a
+	specific time frame \citep{abduMachineLearningPlant2020}. The identification of crop
+	illness involves the use of machine vision techniques to acquire images,
+	which are subsequently subjected to analysis in order to determine
+	the presence or absence of pathogens within the crop \citep{liuPlantDiseasesPests2021a}. \cite{barureDiseaseDetectionPlant2020a} explained crop disease classification as
+	the techniques of grouping each subject under study into various groups.
+	Due to advancement in technology, Artificial Intelligence (AI) and
+	Convolutional Neural Networks (CNNs) a sub-field in Machine Learning (ML), are enabled to achieve
+	high accuracy in detecting plant and diseases. The use of deep CNNs
+	for real-time detection shows great performance in agricultural environment
+	\citep{khalidRealTimePlantHealth2023a}. \cite{nwanetoHarnessingDeepLearning2024a} achieved an accuracy
+	of 94\% in identifying various crop diseases by comparing MobileNet
+	and custom CNNs on a large dataset. Based on these findings, the potential
+	for integrating AI-driven techniques to pumpkin leaf disease detection
+	provides robust, scalable and cost-effective tools for supporting
+	smallholder farmers.
+
+\section{Problem Statement}
+Pumpkin leaf cultivation is affected by fungal (powdery mildew),
+	bacterial (leaf spot), and viral disease (mosaic virus) resulting
+	to low yield of productivity. Timely and accurate identification of
+	these diseases is necessary for proper management and control. Most
+	farmers rely on the traditional manual method using visual observation,
+	which is time consuming, susceptible to error, and depend on expertise
+	knowledge which may not be readily available especially in early infection
+	stages which pose a gap. In addition, early symptoms of pumpkin appear
+	to be similar at initial stage and may be hard to identify and differentiate
+	with ordinary eyes. Due to the recent technological advancement in
+	AI and ML, an intelligent diagnostic system will be developed for
+	automated disease discovery of the pumpkin leaf and classification
+	especially in rural areas. The integration of AI in disease detection
+	and classification of the pumpkin leaf is necessary to enable accurate,
+	timely and real-time detection, thereby supporting decision making
+	and leading to crop yield.
+
+\section{Objectives}
+The aim of the of the research is to design an \topic %a pumpkin leaf disease detectionand classification system 
+to detect and classify pumpkin leaf diseases and suggest remedies using lightweight CNN and Vision Transformer or Attention Mechanism.
+
+\subsection*{Specific Objectives}
+\begin{enumerate}
+	\item To train a deep learning model to detect diseases in pumpkin leaves using an ensemble of a lightweight CNN and Vision Transformer (ViTt).
+	%To train a deep learning model to detect diseases in pumpkin leaves.
+	\item Model Optimisation using Prunning, Quantisation, Precision adjustment and Hyperparameter tuning.
+	
+	\item Test, compare and choose the best performing model trained above, based on size and accuracy.
+	% \item To validate the moddel accuracy
+	\item To deploy the model to cloud and or mobile for public access and use.
+	%% \item to develop an artificial intelligence model for pumpkin leaf disease detection.
+	
+	% \item to develop a model that suggests treatment of diseases (natural and or artificial)
+	% \item to develop a mobile app for pumpkin leaf disease detection.
+	
+	% \item to deploy the model on cloud for others to access using mobile application.
+
+\end{enumerate}
+
+
+Application Programming Interface (API) for integration in other applications and
+devices.
+The objectives of the study is primarily to develop an accurate, efficient
+and robust system for identifying the diseases mentioned in \ref{scope} particularly in its early stage. This early detection is very important for prompt
+management intervention and control and can assist in reduction of crop
+losses and prevent the spread of the disease(s).
+
+
+
+% The aim of the project is to develop an accurate, fast and
+% 	reliable system for early identification of disease affecting pumpkin. \\
+% {The specific objectives are:} 
+% \begin{enumerate}
+% 	\item to design a system to detect disease in pumpki early 
+	
+% 	\item to ensure the system detect disease in real-time
+	
+% 	\item to ensure the system classify the disease.
+
+% \end{enumerate}
+
+\section {Justification of the Study}
+Early identification of the pathogen type of plant infection
+	is of high significance for disease control. Various methods are used
+	to diagnose pathogens of disease on plant. Traditional methods for
+	diagnosis of plant pathogens rely on visual observation, microscopy,
+	mycological analysis, and biological diagnostics or the use of indicator
+	plants, which are not accurate and lack early detection. Rapid and
+	reliable detection of plant disease and identification of its pathogen
+	is a vital stage in disease control. Early identification of the cause
+	of the disease allows timely selection of the proper protection method
+	and ensures prevention of crop losses. There are a number of traditional
+	methods for identifying plant diseases, however, in order to ensure
+	the promptness and reliability of diagnosis, as well as to eliminate
+	the shortcomings inherent in traditional diagnosis, in recent years,
+	new means and technologies for identifying pathogens have been developed
+	and introduced into practice. This project provides information on
+	such innovative methods of diagnosis of diseases and classification
+	of their pathogens, which are used widely in the world today, such
+	as immunodiagnostics, molecular-genetic (and phylogenetic) identification,
+	mass spectrometry  \citep{khakimovTraditionalCurrentprospectiveMethods2022a}
+
+\section {Scope of the Study}
+\label{scope}
+This study covers the application of AI/ML methods for the
+	detection, classification and recommendation of treatment options
+	for the main diseases affecting pumpkin (curcubita spp) plant only.
+	The diseases covered in this project is downy mildew, powdery mildew,
+	mosaic virus. Also, covered is the deployment on mobile framework or platform via a mobile application.
+
+\section{Limitations of Existing System}
+\begin{enumerate}
+	\item Complexity may result to challenge in low-power devices.
+	
+	\item May lack reliability for other crops apart from the present ones.
+	
+	\item Classification performance requires improvement
+	
+	\item Complexity in feature integration may stop model interpretability and adaptability.
+	
+	\item The dense architectural structure may increase memory consumption
+\end{enumerate}
+
+\section{Research Questions}
+\begin{enumerate}
+	\item What is the accuracy of using image processing to identify and classify different pumpkin leaf diseases?
+	
+	\item  How does image processing and classification compare to traditional methods of pumpkin leaf disease detection?
+	
+	\item How can pumpkin leaf disease detection and classification model be deployed on mobile?
+\end{enumerate}
+%\section{\bfseries Definition of Term and Abbreviations} 
+
+%\begin{description}
+%	\item  [Artificial intelligence (AI):]  
+%	Systems that mimic human intelligence to do tasks can improve based on the information they collect.
+%	\item [Machine Learning (ML):] 
+%	A branch of artificial intelligence that pays attention to building algorithms with the ability to learn and make predictions based on data available.
+%	\item [NASME:] Nigeria Army School of Military Engineering
+%	\item [You Only Look Once (YOLOvX) :] This is afamily of object detectioin algorithms that are known for their speed and accuracy in real-time object detection
+%	\item [Support Vector Machine (SVM) :]  A supervised machine learning algorithm used in classification and regression machine learning tasks.
+%	\item [Computer Vision (CV) :] This is the field of artificial intelligence that enables computers to "see" and interpret images and videos, mimicking human vision
+%	\item [Principal Component Analysis (PCA) :] This is a dimensionality (number of columns / features) reduction technique used to transform a set of potentially correlated variables into a smallerr set of uncorrelated variables called principal components.
+%	\item [Visual Geometry Group Network (VGGNet) :] This is a series of convolutional neural networks developed by the Visual Geometry Group at the University of Oxford. They include many configurations with different depths, denoted by the letter "VGG" followed by the number of weight layers. 
+%	\item [Vision Transformer (ViT) :] This is a deep learning model that appllies the Transformer architecture, originally designed for natural language processing (NLP), to computer vision (CV) tasks, specifically image classification.
+%	\item [Convolutional Neural Network (CNN) :] This is a type of deep learning model particularly suited for processing grid-like data like images and videos.
+%	\item [Graph Convoutional Neural Network (GCNN) :] This is a type of neural network designed to work with graph-structured data
+%\end{description}
+

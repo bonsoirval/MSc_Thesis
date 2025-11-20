@@ -1,0 +1,29 @@
+%% page settings
+
+\usepackage[a4paper,right=2.25cm,left=3cm,top=2.54cm,bottom=2.54cm]{geometry}
+
+% set chapter title and chapter number size
+\usepackage{sectsty}
+\chapternumberfont{\Large\centering} 
+\chaptertitlefont{\Large\centering}
+
+\usepackage{fmtcount} % for textual representation of numbers
+
+% patch \@makechapterhead
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd{\@makechapterhead}
+{\thechapter}
+{\NUMBERstring{chapter}}
+{}{}
+\makeatother
+
+\renewcommand{\chaptername}{CHAPTER\centering} % change Chapter to CHAPTER
+
+% space between chapter name and title
+\newcommand{\nameTitleSpace}{\vspace*{0cm}}
+\newcommand{\chpterTitleSection}{\vspace*{-30pt}}
+\newcommand{\sectionTitleBody}{\vspace*{-.5cm}}
+
+% Number of entries into longtable
+\setcounter{LTchunksize}{10}

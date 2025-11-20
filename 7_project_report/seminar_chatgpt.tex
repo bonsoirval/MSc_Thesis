@@ -1,0 +1,90 @@
+\documentclass[12pt,a4paper,oneside,titlepage]{report}
+
+\input{settings/variables}
+\input{settings/packages}
+
+%% page settings
+\input{settings/page}
+
+
+\title{Diseases Detection and Classification in Ugu leaf using ML / AI}
+\author{Njoku Okechukwu Valentine}
+
+% times new roman
+\usepackage{mathptmx}
+
+
+\renewcommand{\cftdot}{}
+\Large
+\doublespacing
+% \pagenumbering{arabic}
+\begin{document}
+	\pagestyle{empty}
+	% the title page
+	\input{preliminaries/title_page}
+	\addcontentsline{toc}{chapter}{Cover}%{TITLE}{\Large \bfseries TITLE}
+	\newpage
+	\pagenumbering{roman}
+	% certification
+	\input{preliminaries/certification}
+	\addcontentsline{toc}{chapter}{Certification}
+	\newpage
+	
+	% approval 
+	\input{preliminaries/approval}
+	\addcontentsline{toc}{chapter}{Approval}
+	
+	% approval 
+	\input{preliminaries/dedication}
+	\addcontentsline{toc}{chapter}{Dedication}
+	
+	% acknowledgement
+	\input{preliminaries/acknowledgement}
+	\addcontentsline{toc}{chapter}{Acknowledgement}
+	\newpage
+
+	
+	% table of content
+	% hide borders around text in table of content
+	\tableofcontents
+	\addcontentsline{toc}{chapter}{Table of content}
+	\newpage
+	
+	% list of figures
+	\listoffigures
+	\addcontentsline{toc}{chapter}{List figures}
+	\newpage
+	
+	% list of tables
+	\listoftables
+	\addcontentsline{toc}{chapter}{List tables}
+	\newpage
+	
+	% abstract
+	%\input{preliminaries/abstract}
+	%\addcontentsline{toc}{chapter}{Abstract}
+	%\newpage
+	
+	\pagestyle{plain}
+	\pagenumbering{arabic}
+	% chapter one
+	\vspace{0cm}
+	\chapter{\nameTitleSpace INTRODUCTION}
+	\chpterTitleSection
+	\input{chapters/chapter01}
+	
+	% chapter two
+	\input{chapters/chapter02}
+	
+	% chapter three
+	\input{chapters/chapter03_chatgpt}
+	
+	
+	%\addbibresource{references/references.bib}
+	\begin{singlespace}
+	\renewcommand\bibname{REFERENCES}
+	\bibliography{biblio/ref}
+	\addcontentsline{toc}{chapter}{\Large \bfseries REFERENCES}
+\end{singlespace}
+		
+\end{document}

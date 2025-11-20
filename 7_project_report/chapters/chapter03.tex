@@ -1,0 +1,178 @@
+\chapter{\nameTitleSpace MATERIALS AND METHODS}
+\chpterTitleSection
+\section{Methodology} \sectionTitleBody
+The research followed an experimental design approach using
+the waterfall model due to the sequential process. Deep learning Convolutional
+Neural Network method was leveraged using python and dataset training
+and validation.
+
+\section{Requirement Gathering}\sectionTitleBody
+The pumpkin dataset was gathered from kaggle. The dataset
+was already labeled according to the different disease types.
+
+\section{Image Preprocessing} \sectionTitleBody This is the processing of preparing or digital images for analysis or further processing by machine learning or artificial intelligence model uses.
+
+\section{Image Enhancement}\sectionTitleBody The images are improved in quality for better training and prediction.
+	\begin{description}
+	\item[Noise removal] Unwanted artifacts or variations that occurred at random were removed
+	
+	\item[Contrast~enhancementt] The brightness and contrast were adjusted to improve visibility of objects or feattures.
+	\item[Color~correction] Ensuring accurate and consistentt color representation
+\end{description}
+\section{Feature Extraction and Principal Component Analysis}\sectionTitleBody
+Relevant image features were identified and extracted from  the images that can be used for further analysis.
+
+\section{Image Classification}\sectionTitleBody
+At this point the machine learning model was actually trained to essentially understand what is  in the picttures (and categorize them)of the diseased leaves.
+
+\section{Prediction}\sectionTitleBody
+The trained model in image classification is used to predict 
+the classes of images it has not previously seen.
+
+\section{Analysis of the Existing System}\sectionTitleBody
+From table~\ref{tab:key_ai}, \citep{hosnyMultiClassClassificationPlant2023a} built a multi-class plant disease classification system using hybrid CNN and Local Binary Patter, producing a very complex sytem which is difficult to adapt. \cite{bukumiraCarrotGradingSystem2022a} used a Graph Convolutional Neural Network (GCNN) and computer vision, and cascaded graph CNN and Bayesian Optimisation to build a carrot grading model, resulting in a computationally intensive system for real - time application. \cite{khalidRealTimePlantHealth2023a} built a real-tie apple detection system using Lightweight - CNN and YOLOv4 which produce a system with real-time performance that needs performance improvement. \cite{bansalDiseaseDetectionApple2021} got an apple leaf disease detection with ensemble pre-trained deep CNN model for multiple diseases but with reduced accuracy, even for apple leaves only. 
+\cite{waheedOptimizedDenseConvolutional2020a} built a disease recognition and classification of corn leaf disease using optimised densenet model, the resultant model was intense on memory, increasing the cost of affordability. While \cite{ahilaMaizeLeafDisease2019}  came with a maize classification leaf disease using binary pattern modified LeNet, which is lightweight and real-time but limited to corn / maize. \cite{jiangRealTimeDetectionApple2019a} was real-time detection of disease on apple leaf with enhanced CNN providing high quality performance solution  with real time detection but with low power challenge for low powered devices like mobile phones, tablets and IoT devices. With (Wu et al. 2019) was an Autonomous detection of plant disease built with CNN model on aerial imagery, robusst in large scale diseae detection but limited to aerial imagery, hence not easily adaptable to everyday farmers.\\
+From the existing systems above analysed, there is a gap of a real - time lightweight mobile model deployable on the low powered mobile systems like smart phones, tables, raspbery pi and raspbery pi pico. This is the gap that this work is going to fill. 
+
+% The survey of leaf spot disease of pumpkin was carried out in 2019 during the farming season. Leaf samples were collected from individual farmers at ten pumpkin farm locations where pumpkin were cultivated. The field was sampled for the presence of leaf spot disease and infected leaves were collected and brought to the laboratory for fungi isolation and identification. Leaf spot symptoms revealed a transparent brown patches, white leaf spot lesions, black leaf spot lesions, yellowish leaf spot and transparent brown growth. Aqueous leaf extract of \textit{carica papaya} and \textit{moringa oleifera} were tested at 5\%, 10\% concentration of antifungal presence for the control of \textit{Fusarium verticillioides}, \textit{A flavus} and \textit{M. phaseolina.} They proved that the use of 15\% concentration of C. papaya and M. oleifera was able to limit the mycelia growth of fungi associated 	with the leaf spot disease of pumpkin in Makurdi \citep{ekhuemeloASSESSMENTFUNGIASSOCIATED2021}.
+
+\subsection{Architecture of the Existing System}
+
+\begin{figure*}[!h]
+	\includegraphics[width=\textwidth]{architecture}
+	\caption{Architecture of existing system \citep{sarwarPerformanceMachineLearning2022} %(Zamani et. al , 2023) 
+		\label{fig:existing_architecture}}
+\end{figure*}
+
+\newpage
+\begin{table*}[!h]
+	\caption{Morphological growth and microscopic description of fungi \newline isolated from pumpkin plant \citep{ekhuemeloASSESSMENTFUNGIASSOCIATED2021}.}
+\begin{tabular}{|p{.3\textwidth}|p{.3\textwidth}|p{.3\textwidth}|}\hline
+	
+	{\bfseries Fungi Growth on PDA} & {\bfseries Micrograph} & {\bfseries Microscopic \newline
+		description} \\
+	\hline 
+	% Row one, image one
+	\begin{minipage}{.3\textwidth}
+		\includegraphics[width=\textwidth,height=50mm]{trad_disease1}
+	\end{minipage}
+	 & 
+	 % Row one, image two 
+	 \begin{minipage}{.3\textwidth}
+	 	\includegraphics[width=\textwidth,height=50mm]{trad_disease2}
+	 \end{minipage}
+	 
+	  & 
+	  % Row one, column three
+	  \vspace*{-2.4cm}
+	  \emph{Phoma sp}: formed dark brown. 
+	  Pycnidia, globose, immersed, erumpent, ostiolate with one celled fusoid to ellipsoid hyaline conidia\\
+	\hline
+	
+	% Row two 
+	% Row two, image one
+	\begin{minipage}{.3\textwidth}
+		\includegraphics[width=\textwidth,height=50mm]{trad_disease3}
+	\end{minipage}
+	& 
+	% Row two, image two 
+	\begin{minipage}{.3\textwidth}
+		\includegraphics[width=\textwidth,height=50mm]{trad_disease4}
+	\end{minipage}
+	
+	& 
+	% Row two, column three
+	\vspace*{-2.4cm}
+	{\emph{Curvularia lunata}:} Produced brown simple conidiophore with dark 3-5 celled conidia (porospores) \\
+	\hline
+	
+	% Row three
+	% Row one, image one
+	\begin{minipage}{.3\textwidth}
+		\includegraphics[width=\textwidth,height=50mm]{trad_disease5}
+	\end{minipage}
+	& 
+	% Row one, image two 
+	\begin{minipage}{.3\textwidth}
+		\includegraphics[width=\textwidth,height=50mm]{trad_disease6}
+	\end{minipage}
+	
+	& 
+	% Row one, column three
+	\vspace*{-2.4cm}
+	\emph{Phoma sp}: formed dark brown. 
+	Pycnidia, globose, immersed, erumpent, ostiolate with one coelled fusoid to ellipoid hyline conidia\\
+	
+	\hline
+	
+	% Row four
+	% Row four, image one
+	\begin{minipage}{.3\textwidth}
+		\includegraphics[width=\textwidth,height=50mm]{trad_disease7}
+	\end{minipage}
+	& 
+	% Row four, image two 
+	\begin{minipage}{.3\textwidth}
+		\includegraphics[width=\textwidth,height=50mm]{trad_disease8}
+	\end{minipage}
+	
+	& 
+	% Row one, column three
+	\vspace*{-2.4cm}
+	{\emph Lasiodiplodia theobromae:} Densely to sparselyy granulated sporangia which are globose, catenulate and intercalary; measuring 15-55$\mu$m in diameter and up to 65$\mu$m in length.\\
+	\hline
+\end{tabular}
+\end{table*}
+
+% \begin{figure*}[!h]
+%	\includegraphics[width=\textwidth,height=0.5\textheight]{fungi}
+% 	\caption{Morphological growth and microscopic description fungi isolated from ugwu plant \citep{ekhuemeloASSESSMENTFUNGIASSOCIATED2021}. label{fig:fungi}}
+% \end{figure*}
+
+\newpage
+\subsection{Summary of Gaps in Existing Systems}\sectionTitleBody
+
+The existing system is very complex and not meant for low powered devices. 
+% The existing system can detect only one type of disease on ugwu leaf.
+
+
+\subsection{Limitations of Existing Systems} \sectionTitleBody
+
+The existing system lacks the ability to detect different disease from a particular plant at the same time, using the same techniques, being computationally intensive, hence reduce portability and adoption.
+
+\section{Proposed system}\sectionTitleBody
+In the proposed system, an experiment based on the CNN-solution MobileNetV2
+architecture with three different techniques will be tested. To train
+model, new plant leaf data set from Kaggle will be used. Comparison
+of the three models will be made and the most efficient techniques
+will be utilized and fine-tuned for mobile deployment. 
+Steps are stated below
+\begin{description}
+	\item [{\bfseries Step 1:}] Data collection using plant leaf images with corresponding annotations file.
+	\item [{\bfseries Step 2:}] The MobileNetV2 object detection and classification
+	based model is designed.
+	\item [{\bfseries Step 3:}] To prepare the model for training, compilation of the
+	Adam optimizer and a mean squared error loss function is done with
+	pre trained weights from the image dataset.
+	\item [{\bfseries Step 4:}] At the training phase, the model is trained utilizing
+	a custom generator that produces batches of images and their corresponding
+	labels.
+	\item [{\bfseries Step 5:}] The model is saved as a file for future use.
+\end{description}
+	\newpage
+\subsection{Proposed system Architecture}
+
+% \begin{figure*}[!h]\includegraphics[width=\textwidth,height=\textwidth]{proposed_system}\caption{Implementation diagram }\end{figure*}
+	
+
+\begin{figure*}[!h]
+	\includegraphics[width=\textwidth,height=\textwidth]{flow_diagram}
+	\caption{Research Approach Flow Diagram . \label{fig:flow_diagram}}
+\end{figure*}
+	
+\begin{figure*}[!h]
+	\includegraphics[width=\textwidth,height=\textwidth]{use_case}
+		\caption{Use case diagram of proposed systemj \label{fig:use_case}}
+\end{figure*}
+
+%\subsection{Proposed system Architecture}

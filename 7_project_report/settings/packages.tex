@@ -1,0 +1,36 @@
+%% packages
+\usepackage{fancyhdr}
+\usepackage{graphicx} % needed for \includegraphics 
+\graphicspath{{images/}} % setting images folder
+\usepackage{setspace}
+\usepackage{titlesec}
+\usepackage{comment}
+\begin{comment}
+\titleformat{\chapter}[display]
+	{\normalfont\huge\bfseries}{\chaptertitlename\ \thechapter}{1.5em}{\Huge}
+\end{comment}
+
+\usepackage{fontenc}
+\usepackage[hidelinks]{hyperref}
+
+\usepackage[authoryear,sort,round]{natbib}
+\setlength{\bibsep}{0.5cm} % control the line spacing between bibliography entries
+\usepackage{mathptmx} % Uses times new roman font
+\bibliographystyle{apalike}
+%\setcitestyle{authoryear,open={(},close={)}} %Citation-related
+\usepackage[titles]{tocloft}
+
+
+% bibliography
+%\usepackage[backend=biber, style=alphabetic, sorting=nyt]{biblatex}
+\usepackage{longtable}
+
+
+% directory tree
+\usepackage{dirtree}
+
+\usepackage{gensymb}
+\usepackage{minted}
+\usepackage{listings}
+\usepackage{pythontex}
+
