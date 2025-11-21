@@ -1,4 +1,5 @@
-# CRISP-DM Project — Full Example (with MLflow, CI, and runnable scripts)
+# Optimized Pumpkin Leaf Disease Detection
+Please disregard the content below. I will update it when I complete the project
 
 This project is a complete, runnable CRISP-DM example using the scikit-learn breast cancer dataset.
 It includes:
